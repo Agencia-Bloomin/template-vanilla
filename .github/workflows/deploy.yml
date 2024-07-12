@@ -14,10 +14,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: ${{ secrets.FTP_HOST_BLOOMIN_PROJETOS }}
         username: ${{ secrets.FTP_USER_BLOOMIN_PROJETOS }}
         password: ${{ secrets.FTP_PASSWORD_BLOOMIN_PROJETOS }}
-        remote-dir: /template-teste 
+        server-dir: /template-teste-github 
 

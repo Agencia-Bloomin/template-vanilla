@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/admin/src" isTestSource="false" packagePrefix="Source\" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/coffeecode/datalayer" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/coffeecode/paginator" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/coffeecode/router" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/coffeecode/uploader" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/league/plates" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

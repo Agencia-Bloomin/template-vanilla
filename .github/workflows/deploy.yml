@@ -21,5 +21,5 @@ jobs:
         server: ${{ secrets.FTP_HOST_BLOOMIN_PROJETOS }}
         username: ${{ secrets.FTP_USER_BLOOMIN_PROJETOS }}
         password: ${{ secrets.FTP_PASSWORD_BLOOMIN_PROJETOS }}
-        server-dir: /template-teste-github 
+        server-dir: /template-teste-github/
 

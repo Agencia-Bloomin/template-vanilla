@@ -1,0 +1,75 @@
+.search-cart {
+  border-radius: 158px;
+  background-color: #fff;
+  padding: 2px;
+  border: 1px solid $theme-color;
+  margin-right: auto;
+  margin-left: 1rem;
+  form {
+      display: flex;
+  }
+  .search-box input[type="text"] {
+      border-radius: 20px;
+      border: none;
+      padding: 5px;
+      width: 80%;
+      color: #000;
+      background-color: transparent;
+      &:focus-visible, &:hover {
+          outline: none;
+      }
+  }
+  .search-box button[type="submit"] {
+      border-radius: 20px;
+      border: none;
+      padding: 5px 10px;
+      margin-left: 10px;
+      background-color: white;
+      color: #818181;
+  }
+}
+
+.lupa-mob {
+  margin: 0 0 0 auto;
+  .lupa-btn {
+      margin-right: 1rem;
+      padding: 0.8rem;
+  }
+  .search-cart {
+      position: absolute;
+      opacity: 0;
+      width: 90%;
+      top: 50%;
+      left: calc(50%);
+      transform: translateX(-50%) translateY(10%);
+      visibility: hidden;
+      transition: 0.3s ease-out;
+      &.show-carty {
+          opacity: 1;
+          top: 100%;
+          visibility: visible;
+          transition: 0.3s ease-out;
+      }
+  }
+}
+
+#search {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+#search ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#search li {
+  padding: 5px;
+  cursor: pointer;
+}
